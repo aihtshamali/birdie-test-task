@@ -1,8 +1,15 @@
 import * as express from "express";
-import {pingController} from "./controllers/ping";
+const error = require("./middleware/error");
+
+const family: express.Router = require("./routes/family")
+const bodyParser = require("body-parser");
 
 const app = express();
-
-app.use(pingController);
-
+app.use(error)
+app.use(bodyParser.json());
+require('./logging')();
+// require('./validation')();
+app.use('/family', family);
+ 
+// Uncaught Exceptions handle by this middleware
 export default app;

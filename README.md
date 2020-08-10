@@ -1,4 +1,10 @@
-# Birdie Developer Test
+# Birdie Interview Test
+Its a fullstack developer interview test which is given by Birdie and I have to do use following technologies:
+   -  Typescript, ExpressJs for Backend
+   -  ReactJs, State and Hooks for Frontend
+   -  Heroku Server to publish it 
+
+## Birdie Developer Test
 We would like to thank you for taking our developer test. We understand that often candidates will have many of these tests to complete. Therefore we think it's important to cut straight to the important stuff. With that in mind, we've gone ahead and created a boilerplate that mostly represents the kind of technical stack we work with. This saves you from having to create needless boilerplate code that does little to demonstrate your potential as a developer.
 
 ## Context
